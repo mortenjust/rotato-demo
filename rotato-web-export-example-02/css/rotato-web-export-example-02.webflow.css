@@ -1,0 +1,566 @@
+.headlinesection {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 500vh;
+  display: flex;
+  position: absolute;
+}
+
+.rotatosection {
+  z-index: -100;
+  background-color: #fff;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 9500px;
+  display: block;
+  position: relative;
+}
+
+.sitesection {
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 186px;
+  display: block;
+}
+
+.topheading {
+  color: #000;
+  text-align: left;
+  letter-spacing: -3px;
+  max-width: 460px;
+  margin-top: 50%;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.topheading.first {
+  color: #000;
+  text-align: center;
+  letter-spacing: -6px;
+  max-width: 700px;
+  margin-top: 33vh;
+  font-size: 120px;
+  line-height: 120px;
+}
+
+.toptext {
+  color: rgba(0, 0, 0, .51);
+}
+
+.topbuttons {
+  margin-top: 12px;
+  display: flex;
+  overflow: visible;
+}
+
+.topbutton {
+  border-radius: 20px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stickydiv {
+  z-index: -99;
+  object-fit: cover;
+  background-color: #fff;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-self: center;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+.siteheading {
+  text-align: center;
+  font-size: 90px;
+  line-height: 90px;
+}
+
+.siteheading.h2 {
+  flex-direction: row;
+  font-size: 60px;
+  line-height: 60px;
+  display: flex;
+}
+
+.lottie-animation {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.container.sidebyside {
+  flex-flow: column;
+  flex: 0 auto;
+  align-items: stretch;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  align-items: flex-start;
+  margin-top: 75px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-flex-container {
+  text-align: left;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.footer-logo-link {
+  flex: 0 auto;
+  min-width: 60px;
+  max-height: 60px;
+}
+
+.footer-image {
+  object-fit: contain;
+  object-position: 0% 50%;
+}
+
+.footer-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-link {
+  color: #444;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.container-2 {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.howto {
+  color: #797979;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.heading {
+  max-width: 322px;
+  margin-right: 59px;
+}
+
+.heading.instructions {
+  margin-top: 0;
+}
+
+.text-block {
+  background-color: rgba(0, 0, 0, .08);
+  margin-top: 36px;
+  padding: 20px;
+  font-family: Inconsolata, monospace;
+}
+
+.howtocolumn {
+  margin-top: 36px;
+}
+
+.floatingsection {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh;
+  display: flex;
+}
+
+.floatingsection.float2 {
+  z-index: 101;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 1500px;
+  margin-top: 100vh;
+  margin-right: 31%;
+  position: relative;
+}
+
+.floatingsection.first {
+  margin-top: auto;
+}
+
+.floattext {
+  color: #8e8e8e;
+  text-align: left;
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.image {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.image-2 {
+  margin-left: -19px;
+}
+
+.text-block-3 {
+  max-width: 322px;
+}
+
+.bignumber {
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  flex: 0 auto;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 5ch;
+  line-height: 100%;
+}
+
+.bignumbercontainer {
+  background-color: #000;
+  border-radius: 200px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.quickstart {
+  margin-bottom: 16px;
+}
+
+.heading-2 {
+  position: static;
+}
+
+.heading-3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50%;
+}
+
+.text-block-4 {
+  padding-right: 566px;
+}
+
+.sticky-explainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.floatingsection-ex2 {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh;
+  display: flex;
+}
+
+.floatingsection-ex2.float2, .floatingsection-ex2.float2-ex2 {
+  z-index: 101;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  height: 200vh;
+  margin-top: 667px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.headlinesection-copy {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 500vh;
+  display: flex;
+  position: absolute;
+}
+
+.canvascontainer {
+  background-color: #fff;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.div-block {
+  z-index: -10;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  margin-top: -62px;
+  position: static;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.container-3 {
+  display: block;
+}
+
+.image-3 {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+.brand {
+  margin-top: 12px;
+  margin-bottom: auto;
+  display: inline-block;
+}
+
+.app {
+  margin-top: 133px;
+}
+
+@media screen and (max-width: 991px) {
+  .lottie-animation {
+    height: 500px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .headlinesection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .rotatosection {
+    height: 9100px;
+  }
+
+  .topheading {
+    margin-top: 23%;
+  }
+
+  .topheading.first {
+    letter-spacing: 0;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .lottie-animation {
+    width: 200%;
+    height: 1000px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .container.sidebyside {
+    padding-left: 20px;
+    padding-right: 21px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer-image {
+    object-fit: contain;
+  }
+
+  .container-2 {
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .howto {
+    margin-left: -39px;
+  }
+
+  .heading {
+    max-width: 254px;
+  }
+
+  .column, .howtocolumn, .column-3, .column-4, .column-5, .column-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .floatingsection.float2 {
+    margin-right: 0%;
+  }
+
+  .floatingsection-ex2.float2, .floatingsection-ex2.float2-ex2 {
+    width: 90%;
+  }
+
+  .headlinesection-copy {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sitesection {
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+
+  .topheading {
+    margin-top: 44%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .topheading.first {
+    margin-top: 22vh;
+  }
+
+  .toptext {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+
+  .stickydiv {
+    display: flex;
+  }
+
+  .container, .container.sidebyside {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-flex-container {
+    flex-direction: column;
+  }
+
+  .footer-logo-link {
+    height: 60px;
+  }
+
+  .footer-heading {
+    margin-top: 20px;
+  }
+
+  .container-2 {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .howto {
+    margin-left: 0;
+  }
+
+  .heading {
+    margin-right: 0;
+  }
+
+  .text-block {
+    overflow: auto;
+  }
+
+  .column, .text-block-2 {
+    padding-left: 0;
+  }
+
+  .columns {
+    overflow: visible;
+  }
+
+  .howtocolumn {
+    margin-top: 53px;
+    padding-left: 0;
+  }
+
+  .column-3, .column-4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .floatingsection.float2 {
+    width: 100%;
+    min-height: 1500px;
+    display: flex;
+  }
+
+  .link-block {
+    margin-top: 16px;
+  }
+
+  .sticky-explainer {
+    width: 100%;
+  }
+}
+
+
